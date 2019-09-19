@@ -1,0 +1,38 @@
+﻿<Window x:Class="PracticaAreadefiguras.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaAreadefiguras"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="776.4" Width="998.2">
+    <Grid Margin="0,0,4,-45.6" Background="#FFAE6B6B">
+        <Label Content="BASE" HorizontalAlignment="Left" Margin="70,57,0,0" VerticalAlignment="Top" Height="25" Width="40" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="ALTURA" HorizontalAlignment="Left" Margin="315,57,0,0" VerticalAlignment="Top" Height="25" Width="70" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="RECTANGULO" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="TRIANGULO" HorizontalAlignment="Left" Margin="70,160,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="TRAPECIO" HorizontalAlignment="Left" Margin="70,312,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="CIRCULO" HorizontalAlignment="Left" Margin="70,464,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
+        <Button x:Name="btncalcular1" Content="CALCULAR " HorizontalAlignment="Left" Margin="640,95,0,0" VerticalAlignment="Top" Width="115" Height="37" Click="Calcular1_Click"/>
+        <Button x:Name="calculartri" Content="CALCULAR" HorizontalAlignment="Left" Margin="640,225,0,0" VerticalAlignment="Top" Width="115" Height="37" RenderTransformOrigin="0.478,2.697" Click="Calculartri_Click"/>
+        <Button x:Name="areatra" Content="CALCULAR" HorizontalAlignment="Left" Margin="640,380,0,0" VerticalAlignment="Top" Width="115" Height="37" RenderTransformOrigin="0.478,2.697" Click="Areatra_Click"/>
+        <Button x:Name="areacirculo" Content="CALCULAR" HorizontalAlignment="Left" Margin="640,565,0,0" VerticalAlignment="Top" Width="115" Height="37" RenderTransformOrigin="0.478,2.697" Click="Button_Click"/>
+        <Label Content="BASE MENOR" HorizontalAlignment="Left" Margin="300,342,0,0" VerticalAlignment="Top" Height="38" Width="85" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="ALTURA" HorizontalAlignment="Left" Margin="495,350,0,0" VerticalAlignment="Top" Height="25" Width="70" RenderTransformOrigin="0.001,-0.416"/>
+        <TextBox x:Name="txtbaset" HorizontalAlignment="Left" Height="50" Margin="70,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtbasetri"  HorizontalAlignment="Left" Height="50" Margin="70,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox  x:Name="txtbasemenor" HorizontalAlignment="Left" Height="50" Margin="70,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtradio" HorizontalAlignment="Left" Height="50" Margin="70,565,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtalturat" HorizontalAlignment="Left" Height="50" Margin="300,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtalturatri" HorizontalAlignment="Left" Height="50" Margin="300,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtbasemayor" HorizontalAlignment="Left" Height="50" Margin="300,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtalturatra" HorizontalAlignment="Left" Height="50" Margin="470,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="lblarear" HorizontalAlignment="Left" Height="50" Margin="830,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="areat" HorizontalAlignment="Left" Height="50" Margin="830,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="lblresultadotra" HorizontalAlignment="Left" Height="50" Margin="830,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="txtresultadoareac" HorizontalAlignment="Left" Height="50" Margin="830,565,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <Label Content="RADIO" HorizontalAlignment="Left" Margin="70,515,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
+        <Label Content="BASE MAYOR" HorizontalAlignment="Left" Margin="75,342,0,0" VerticalAlignment="Top" Height="38" Width="85" RenderTransformOrigin="0.001,-0.416"/>
+
+    </Grid>
+</Window>
