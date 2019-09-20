@@ -56,5 +56,52 @@ namespace PracticaAreadefiguras
             double areatrapecio = ((basemayor + basemenor) * altura) / 2;
             lblresultadotra.Text = areatrapecio.ToString();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+            txtbasemenor.Text = "";
+            txtbasemayor.Text = "";
+            txtalturatra.Text = "";
+            lblresultadotra.Text = "";
+        }
+
+        private void Limpiarcirculo_Click(object sender, RoutedEventArgs e)
+        {
+            txtradio.Text = "";
+            txtresultadoareac.Text = "";
+        }
+
+        private void Limpiartriangulo_Click(object sender, RoutedEventArgs e)
+        {
+            txtbasetri.Text = "";
+            txtalturatri.Text = "";
+            areat.Text = "";
+        }
+
+        private void Limpiarrectangulo_Click(object sender, RoutedEventArgs e)
+        {
+            txtbaset.Text = "";
+            txtalturat.Text = "";
+            lblarear.Text = "";
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            txtbaset.Text = "";
+            txtalturat.Text = "";
+            lblarear.Text = "";
+            txtbasetri.Text = "";
+            txtalturatri.Text = "";
+            areat.Text = "";
+            txtradio.Text = "";
+            txtresultadoareac.Text = "";
+            txtradio.Text = "";
+            txtresultadoareac.Text = "";
+            txtbasemenor.Text = "";
+            txtbasemayor.Text = "";
+            txtalturatra.Text = "";
+            lblresultadotra.Text = "";
+        }
     }
 }

@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticaAreadefiguras"
         mc:Ignorable="d"
-        Title="MainWindow" Height="776.4" Width="998.2">
-    <Grid Margin="0,0,4,-45.6" Background="#FFAE6B6B">
+        Title="MainWindow" Height="1000.56" Width="1253.749">
+    <Grid Margin="0,0,3.2,1.2" Background="#FFAE6B6B" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.101"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.Effect>
+            <DropShadowEffect Color="#FFAE1111" BlurRadius="20"/>
+        </Grid.Effect>
         <Label Content="BASE" HorizontalAlignment="Left" Margin="70,57,0,0" VerticalAlignment="Top" Height="25" Width="40" RenderTransformOrigin="0.001,-0.416"/>
         <Label Content="ALTURA" HorizontalAlignment="Left" Margin="315,57,0,0" VerticalAlignment="Top" Height="25" Width="70" RenderTransformOrigin="0.001,-0.416"/>
         <Label Content="RECTANGULO" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
@@ -27,12 +38,17 @@
         <TextBox x:Name="txtalturatri" HorizontalAlignment="Left" Height="50" Margin="300,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
         <TextBox x:Name="txtbasemayor" HorizontalAlignment="Left" Height="50" Margin="300,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
         <TextBox x:Name="txtalturatra" HorizontalAlignment="Left" Height="50" Margin="470,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
-        <TextBox x:Name="lblarear" HorizontalAlignment="Left" Height="50" Margin="830,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
+        <TextBox x:Name="lblarear" HorizontalAlignment="Left" Height="50" Margin="830,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
         <TextBox x:Name="areat" HorizontalAlignment="Left" Height="50" Margin="830,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
         <TextBox x:Name="lblresultadotra" HorizontalAlignment="Left" Height="50" Margin="830,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
         <TextBox x:Name="txtresultadoareac" HorizontalAlignment="Left" Height="50" Margin="830,565,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.393,0.556"/>
         <Label Content="RADIO" HorizontalAlignment="Left" Margin="70,515,0,0" VerticalAlignment="Top" Height="25" Width="90" RenderTransformOrigin="0.001,-0.416"/>
         <Label Content="BASE MAYOR" HorizontalAlignment="Left" Margin="75,342,0,0" VerticalAlignment="Top" Height="38" Width="85" RenderTransformOrigin="0.001,-0.416"/>
+        <Button x:Name="limpiartrapecio" Content="LIMPIAR" HorizontalAlignment="Left" Margin="1057,380,0,0" VerticalAlignment="Top" Width="129" Height="50" Click="Button_Click_1"/>
+        <Button x:Name="limpiarcirculo" Content="Button" HorizontalAlignment="Left" Margin="1060,565,0,0" VerticalAlignment="Top" Width="126" Height="39" Click="Limpiarcirculo_Click"/>
+        <Button x:Name="limpiartriangulo" Content="LIMPIAR" HorizontalAlignment="Left" Margin="1060,225,0,0" VerticalAlignment="Top" Width="126" Height="50" Click="Limpiartriangulo_Click"/>
+        <Button x:Name="limpiarrectangulo" Content="LIMPIAR" HorizontalAlignment="Left" Margin="1060,95,0,0" VerticalAlignment="Top" Width="126" Height="50" Click="Limpiarrectangulo_Click"/>
+        <Button Content="LIMPIAR TODO" HorizontalAlignment="Left" Margin="536,744,0,0" VerticalAlignment="Top" Width="240" Height="65" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
